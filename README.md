@@ -1,6 +1,6 @@
 Práctica: Hyperledger Fabric Keepcoding
 
-#1 Clonamos el repositorio de fabric-samples
+## 1 Clonamos el repositorio de fabric-samples
 Para empezar, vamos hacer un fork del repositorio oficial de Fabric Samples y clonarlo en nuestro entorno de trabajo:
 Clonar el repositorio
 git clone https://github.com/hyperledger/fabric-samples.git
