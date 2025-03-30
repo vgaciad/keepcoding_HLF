@@ -30,6 +30,7 @@ Ejecutar los siguientes comandos para regenerar los certificados y la configurac
 
 ## 4 Probamos la red
 Ejecutar comandos en la CLI para registrar productos y cambiar su estado, por ejemplo: 
+
 peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls \
 --cafile $ORDERER_CA -C mychannel -n supplychain \
 --peerAddresses localhost:7051 --tlsRootCertFiles $PEER0_ORG1_CA \
