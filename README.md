@@ -6,7 +6,7 @@ Clonar el repositorio
 git clone https://github.com/hyperledger/fabric-samples.git
 cd fabric-samples
 
-##2 Configuramos la red test-network
+## 2 Configuramos la red test-network
 La red de prueba por defecto tiene dos organizaciones, pero para este caso de uso debemos agregar una tercera organización.
 
 2.1 Agregar la organización Distribuidor
@@ -19,7 +19,7 @@ Ejecutar los siguientes comandos para regenerar los certificados y la configurac
   ./network.sh down
   ./network.sh up createChannel -ca
   
-##3 Implementar el chaincode
+## 3 Implementar el chaincode
 3.1 Crear un nuevo chaincode
   1. En el directorio chaincode/, creamos  una nueva carpeta para el chaincode.
   2. Escribimos la lógica del contrato inteligente en Go, Node.js o Java.
@@ -27,7 +27,7 @@ Ejecutar los siguientes comandos para regenerar los certificados y la configurac
 3.2 Despleganos el chaincode
   ./network.sh deployCC -ccn supplychain -ccp ../chaincode/supplychain -ccl go
 
-##4 Probamos la red
+## 4 Probamos la red
 Ejecutar comandos en la CLI para registrar productos y cambiar su estado, por ejemplo: 
 peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls \
 --cafile $ORDERER_CA -C mychannel -n supplychain \
