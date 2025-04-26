@@ -1,6 +1,5 @@
 # Práctica: Hyperledger Fabric Keepcoding
 # Módulo “Certificación HLF (Administrator/Developer
-
 # Creador: Víctor García Delgado
 
 # Entregas:
